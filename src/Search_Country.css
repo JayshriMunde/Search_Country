@@ -1,0 +1,40 @@
+.country-list {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.countryCard {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.countryCard img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.no-results {
+  text-align: center;
+  color: #888;
+}
